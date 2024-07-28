@@ -1,3 +1,3 @@
 variable "bucket_name" {
-  default = "terraform-static-website-aws"
+  default = "" # your bucket name goes here
 }
