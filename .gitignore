@@ -2,4 +2,3 @@
 .terraform/providers/*
 terraform.tfstate
 terraform.tfstate.backup
-error.html
