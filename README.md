@@ -8,7 +8,6 @@ The website is publicly accessible and serves an `index.html` file as the homepa
 - ✅ **Terraform automation** for S3 static website hosting.
 - ✅ **Publicly accessible website** with `index.html`, `styles.css`, and an optional `error.html`.
 - ✅ **Automatic file upload** to S3 via Terraform.
-- ✅ (Optional) **Custom domain & HTTPS** can be added later.
 
 ## 🏗️ Project Structure
 ```bash
@@ -24,26 +23,26 @@ terraform-resume-project/
 │── .gitignore     
 ```
 ## 📸Highlights
-1️⃣ Terraform Apply Output
+- 1️⃣ Terraform Apply Output
 ![output-after-apply](images/output.JPG)
-2️⃣ S3 Website in Browser
+- 2️⃣ S3 Website in Browser
 ![in-the-browser](images/browser-web.JPG)
 
 ## 🛠️ Setup & Deployment
-1️⃣ Prerequisites
-✅ Install Terraform
-✅ Have an AWS Account with CLI configured (aws configure)
+## 1️⃣ Prerequisites
+- ✅ Install Terraform
+- ✅ Have an AWS Account with CLI configured (aws configure)
 
 ## 2️⃣ Clone the Repository
-git clone https://github.com/VenkateshV14/terraform-s3-website.git
-cd terraform-s3-website
+- git clone https://github.com/VenkateshV14/terraform-s3-website.git
+- cd terraform-s3-website
 
 ## 3️⃣ Initialize Terraform
-terraform init
+- terraform init
 
 ## 4️⃣ Apply Terraform Configuration
-terraform apply -auto-approve
+- terraform apply -auto-approve
 ## 📌 Note: The output will display the S3 Website URL.
 
 ## 🤝 Contributing
-Feel free to fork and improve this project! 💡🚀
+- Feel free to fork and improve this project! 💡🚀
