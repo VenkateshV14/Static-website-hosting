@@ -44,7 +44,7 @@ terraform-resume-project/
 - terraform apply -auto-approve
 ## 📌 Note: The output will display the S3 Website URL.
 
-- And here's my website output URL : [peter-terraform-static-website-bucket-77.s3-website-us-east-1.amazonaws.com](peter-terraform-static-website-bucket-77.s3-website-us-east-1.amazonaws.com)
+- And here's my website output URL : peter-terraform-static-website-bucket-77.s3-website-us-east-1.amazonaws.com
 
 ## 🤝 Contributing
 - Feel free to fork and improve this project! 💡🚀
