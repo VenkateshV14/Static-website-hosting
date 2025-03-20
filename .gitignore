@@ -1,4 +1,14 @@
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+.terraform/
 .terraform.lock.hcl
-.terraform/providers/*
-terraform.tfstate
-terraform.tfstate.backup
+
+# AWS Credentials (DO NOT COMMIT SECRETS)
+aws_credentials
+
+# Ignore editor/OS-specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

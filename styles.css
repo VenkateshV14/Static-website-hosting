@@ -1,0 +1,69 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1,
+h2,
+h3 {
+    color: #222;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+.profile-img {
+    width: 150px;
+    /* Adjusted size */
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    /* Optional for a rounded profile look */
+}
+
+.contact p,
+.contact a {
+    margin: 5px 0;
+    text-decoration: none;
+    color: #0073e6;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    background: #0073e6;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.projects h3 {
+    margin-top: 10px;
+    color: #0073e6;
+}
