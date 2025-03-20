@@ -60,7 +60,7 @@ resource "aws_s3_object" "error" {
 resource "aws_s3_object" "profile" {
   bucket = aws_s3_bucket.static-bucket.id
   key    = "Venkatesh.JPG"
-  source = "Venkatesh.JPG"
+  source = "images/Venkatesh.JPG"
   acl    = "public-read"
 }
 
